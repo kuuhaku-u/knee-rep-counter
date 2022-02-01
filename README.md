@@ -35,14 +35,10 @@ Landmark used are : LEFT KNEE, LEFT HIP and LEFT ANKLE
 To count other than the angle between knee ,hip and ankle you need to replace LEFT_HIP ,LEFT_ANKLE and LEFT_KNEE in this code to another valid landmark in pose model
 
 hip=[landmarks[mp_pose.PoseLandmark.LEFT_HIP.value].x,landmarks[mp_pose.PoseLandmark.LEFT_HIP.value].y]
-       knee=[landmarks[mp_pose.PoseLandmark.LEFT_KNEE.value].x,landmarks[mp_pose.PoseLandmark.LEFT_KNEE.value].y]
-        ankle=[landmarks[mp_pose.PoseLandmark.LEFT_ANKLE.value].x,landmarks[mp_pose.PoseLandmark.LEFT_ANKLE.value].y]
+knee=[landmarks[mp_pose.PoseLandmark.LEFT_KNEE.value].x,landmarks[mp_pose.PoseLandmark.LEFT_KNEE.value].y]
+ankle=[landmarks[mp_pose.PoseLandmark.LEFT_ANKLE.value].x,landmarks[mp_pose.PoseLandmark.LEFT_ANKLE.value].y]
  
- Ch	
-check the diagram to look up the valid landmark in pose model:
-
-
-
+	
 
 And change the values in here in case you rename the variables:
 
